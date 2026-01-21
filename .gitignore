@@ -1,0 +1,37 @@
+# Claude Code
+.claude/
+.mcp.json
+
+# Documentation (generated)
+docs/
+
+# Minecraft run directory
+run/
+
+# Gradle
+build/
+.gradle/
+
+# Dependencies (large JARs)
+libs/
+
+# Built JARs at root
+*.jar
+
+# IDE
+.idea/
+*.iml
+.eclipse/
+.settings/
+*.launch
+.project
+.classpath
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

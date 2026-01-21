@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+modId="brecher_herald_fix"
+version="${file.jarVersion}"
+displayName="BrecherHeraldFix"
+description='''
+Fixes the Herald boss fight event listener leak bug that causes exponential mob spawning.
+Server-side only fix for Vault Hunters.
+'''
+
+[[dependencies.brecher_herald_fix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40.2.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.brecher_herald_fix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.brecher_herald_fix]]
+    modId="the_vault"
+    mandatory=true
+    versionRange="[1.18.2-3.18.0,)"
+    ordering="AFTER"
+    side="BOTH"
