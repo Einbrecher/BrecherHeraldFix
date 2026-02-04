@@ -5,9 +5,12 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "brecher_herald_fix.refmap.json",
   "mixins": [
-    "SummoningStageEventMixin"
+    "SummoningStageEventMixin",
+    "SummoningStageGrayscaleMixin"
   ],
-  "client": [],
+  "client": [
+    "client.GrayscaleBufferSourceMixin"
+  ],
   "server": [],
   "injectors": {
     "defaultRequire": 1
